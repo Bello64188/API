@@ -9,6 +9,13 @@ jobs:
     steps:
        - name: netversion
          run: dotnet --version
+
+   RunsCommands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: runs-some-linux-command 
+        run: |
+           pwd
        
    
   
