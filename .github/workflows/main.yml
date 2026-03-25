@@ -15,9 +15,9 @@ jobs:
     steps:
       - name: runs-some-linux-command 
         run: |
-           pwd
-           ls -alh 
-           whoami
+           NAME : "Bello  Abdulazeez"
+           echo "My name is ${NAME}"
+           echo "I am  $NAME"
        
    
   
