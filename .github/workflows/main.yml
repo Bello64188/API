@@ -2,7 +2,7 @@ name: SimpeCICD
 on: 
  push:   
   branches:
-   -master
+    - master
 jobs:
    GetVersions:
     runs-on: ubuntu-latest
