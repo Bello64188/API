@@ -15,9 +15,7 @@ jobs:
     steps:
       - name: runs-some-linux-command 
         run: |
-           NAME=${{secrets.MYNAME}}
-           echo "My name is ${{secrets.MYNAME}}"
-           echo "I am  ${{secrets.MYNAME}}"
+          ls -alh
        
    
   
