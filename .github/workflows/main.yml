@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: runs-some-linux-command 
         run: |
-           NAME="Bello  Abdulazeez"
+           NAME=secret.MYNAME
            echo "My name is ${NAME}"
            echo "I am  $NAME"
        
