@@ -16,8 +16,8 @@ jobs:
       - name: runs-some-linux-command 
         run: |
            NAME=${{secrets.MYNAME}}
-           echo "My name is ${NAME}"
-           echo "I am  $NAME"
+           echo "My name is ${{secrets.MYNAME}}"
+           echo "I am  ${{secrets.MYNAME}}"
        
    
   
