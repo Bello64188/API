@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: runs-some-linux-command 
         run: |
-           NAME= "Bello  Abdulazeez"
+           NAME="Bello  Abdulazeez"
            echo "My name is ${NAME}"
            echo "I am  $NAME"
        
